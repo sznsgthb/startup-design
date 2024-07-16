@@ -1,0 +1,51 @@
+body,
+html {
+  background: url(background2.svg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #444459;
+  text-transform: uppercase;
+}
+
+.buffer {
+  height: 100px;
+}
+
+hr {
+    margin: 20px auto;
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    max-width: 65px;
+    opacity: 0.5;  
+}
+
+/* what does font-weight 700 do? i cannot see in front-end */
+.btn {
+  font-weight: 700;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #F05F44; 
+  border-color: #F05F44;
+  --bs-btn-hover-bg: #D82544; 
+  --bs-btn-hover-border-color: #D82544;
+}
+
+.btn-primary:hover {
+  border-width: 4px;
+}
+
+.selfmade-btn {
+  padding: 20px 60px;
+}
